@@ -161,7 +161,7 @@ export default function ForeverProductsSite() {
     </p>
 
     <a
-      href="https://wa.me/221770000000"
+      href="https://wa.me/221772294864"
       target="_blank"
       className="bg-white text-green-700 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition"
     >
