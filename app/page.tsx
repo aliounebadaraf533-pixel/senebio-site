@@ -63,7 +63,7 @@ export default function ForeverProductsSite() {
 
             <div className="flex gap-4 flex-wrap">
               <a
-                href="https://wa.me/221770000000"
+                href="https://wa.me/221772294864"
                 target="_blank"
                 className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-2xl font-semibold shadow-lg transition"
               >
@@ -115,7 +115,7 @@ export default function ForeverProductsSite() {
                 <p className="text-gray-600 mb-6">{product.description}</p>
 
                 <a
-                  href="https://wa.me/221770000000"
+                  href="https://wa.me/221772294864"
                   target="_blank"
                   className="inline-block bg-green-700 text-white px-5 py-3 rounded-xl font-semibold hover:bg-green-800 transition"
                 >
