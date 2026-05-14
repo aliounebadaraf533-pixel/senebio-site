@@ -56,7 +56,7 @@ export default function ForeverProductsSite() {
   className="w-full max-w-md mx-auto rounded-2xl"
   controls
 >
-  <source src="/vision.mp4" type="vision/mp4" />
+  <source src="/vision.mp4" type="video/mp4" />
 </video>
           <div>
             <h2 className="text-5xl font-extrabold leading-tight mb-6">
