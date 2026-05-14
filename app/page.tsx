@@ -52,6 +52,15 @@ export default function ForeverProductsSite() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-white">
         <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+         <video
+  className="w-full max-w-md mx-auto rounded-2xl"
+  controls
+  autoPlay
+  muted
+  loop
+>
+  <source src="/vision.mp4" type="vision" />
+</video> 
           <div>
             <h2 className="text-5xl font-extrabold leading-tight mb-6">
               Produits Forever au Sénégal
