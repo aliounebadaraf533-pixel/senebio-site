@@ -107,7 +107,7 @@ export default function ForeverProductsSite() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="h-64 w-full object-cover"
+                 className="w-40 h-40 object-cover"
               />
 
               <div className="p-6">
