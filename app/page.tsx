@@ -55,12 +55,9 @@ export default function ForeverProductsSite() {
          <video
   className="w-full max-w-md mx-auto rounded-2xl"
   controls
-  autoPlay
-  muted
-  loop
 >
-  <source src="/vision.mp4" type="vision" />
-</video> 
+  <source src="/vision.mp4" type="vision/mp4" />
+</video>
           <div>
             <h2 className="text-5xl font-extrabold leading-tight mb-6">
               Produits Forever au Sénégal
