@@ -189,9 +189,25 @@ export default function ForeverProductsSite() {
           Gamme Bien-être Urinaire
         </h3>
 
-        <p className="text-gray-600 mt-3">
-          Berry Nectar, Bee Propolis, Vitolize et Fields of Greens.
-        </p>
+         <p className="text-gray-600 mt-3">
+  Berry Nectar : 19.500f x2
+</p>
+
+<p className="text-gray-600">
+  Bee Propolis : 25.500f
+</p>
+
+<p className="text-gray-600">
+  Vitolize : 23.500f
+</p>
+
+<p className="text-gray-600">
+  Fields of Greens : 10.000f
+</p>
+
+<p className="text-green-700 font-bold text-xl mt-4">
+  Total : 98.000f
+</p>
       </div>
 
       {/* BOUTON */}
