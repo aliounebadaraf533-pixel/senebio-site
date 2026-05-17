@@ -93,7 +93,7 @@ export default function ForeverProductsSite() {
 
 {/* SECTION PROSTATE */}
 <section className="py-16 px-6 bg-white">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-2 items-center">
 
     {/* VIDEO */}
     <video
