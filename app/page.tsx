@@ -93,7 +93,7 @@ export default function ForeverProductsSite() {
 
 {/* SECTION PROSTATE */}
 <section className="py-16 px-6 bg-white">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-2 items-center">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
     {/* VIDEO */}
     <video
@@ -104,7 +104,7 @@ export default function ForeverProductsSite() {
     </video>
 
     {/* PRODUITS */}
-    <div className="grid grid-cols-2 gap-6">
+    <div className="grid grid-cols-2 gap-2">
 
       <div className="text-center bg-gray-100 p-4 rounded-2xl">
         <img
