@@ -235,9 +235,17 @@ export default function ForeverProductsSite() {
           Gamme Vision
         </h3>
 
-        <p className="text-gray-600 mt-3">
-          Forever Arctic Sea et Forever iVision pour le bien-être visuel.
-        </p>
+          <p className="text-gray-600 mt-3">
+  Forever Arctic Sea : 23.500f
+</p>
+
+<p className="text-gray-600">
+  Forever iVision : 27.500f
+</p>
+
+<p className="text-green-700 font-bold text-xl mt-4">
+  Total : 51.000f
+</p>
       </div>
 
       {/* BOUTON */}
