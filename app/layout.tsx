@@ -28,23 +28,28 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}
-        {/* Google Analytics */}
-<Script
-  src="https://www.googletagmanager.com/gtag/js?id=G-NSGWFDH62T"
-  strategy="afterInteractive"
-/>
+       <body className="min-h-full flex flex-col">
 
-<Script id="google-analytics" strategy="afterInteractive">
-  {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  {/* Google Analytics */}
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=G-NSGWFDH62T"
+    strategy="afterInteractive"
+  />
 
-    gtag('config', 'G-NSGWFDH62T');
-  `}
-</Script>
-      </body>
-    </html>
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NSGWFDH62T');
+    `}
+  </Script>
+
+  {children}
+
+</body>
+ 
+</html>
   );
 }
