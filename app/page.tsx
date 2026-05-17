@@ -163,6 +163,52 @@ export default function ForeverProductsSite() {
 
   </div>
 </section>
+{/* SECTION INFECTION URINAIRE */}
+<section className="py-16 px-6 bg-white">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/infection.mp4" type="video/mp4" />
+    </video>
+
+    {/* IMAGE GAMME + BOUTON */}
+    <div className="text-center">
+
+      <div className="bg-gray-100 p-6 rounded-3xl shadow-lg">
+        <img
+          src="/gamme-urinaire.jpeg"
+          alt="Gamme Infection Urinaire"
+          className="w-full max-w-md mx-auto rounded-2xl"
+        />
+
+        <h3 className="text-2xl font-bold mt-6">
+          Gamme Bien-être Urinaire
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Berry Nectar, Bee Propolis, Vitolize et Fields of Greens.
+        </p>
+      </div>
+
+      {/* BOUTON */}
+      <div className="mt-6">
+        <a
+          href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20infection%20urinaire"
+          target="_blank"
+          className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
+        >
+          Commander la gamme
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 </div>
 );
 }
