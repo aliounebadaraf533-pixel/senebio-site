@@ -209,6 +209,52 @@ export default function ForeverProductsSite() {
 
   </div>
 </section>
+{/* SECTION VISION */}
+<section className="py-16 px-6 bg-gray-50">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/vision.mp4" type="video/mp4" />
+    </video>
+
+    {/* IMAGE GAMME + BOUTON */}
+    <div className="text-center">
+
+      <div className="bg-white p-6 rounded-3xl shadow-lg">
+        <img
+          src="/gamme-vision.jpeg"
+          alt="Gamme Vision"
+          className="w-full max-w-md mx-auto rounded-2xl"
+        />
+
+        <h3 className="text-2xl font-bold mt-6">
+          Gamme Vision
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Forever Arctic Sea et Forever iVision pour le bien-être visuel.
+        </p>
+      </div>
+
+      {/* BOUTON */}
+      <div className="mt-6">
+        <a
+          href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20vision"
+          target="_blank"
+          className="bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-800 transition"
+        >
+          Commander la gamme
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 </div>
 );
 }
