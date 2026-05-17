@@ -89,7 +89,61 @@ export default function ForeverProductsSite() {
           </div>
         </div>
       </section>
+      
 
+{/* SECTION PROSTATE */}
+<section className="py-16 px-6 bg-white">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-full rounded-2xl shadow-lg"
+      controls
+    >
+      <source src="/prostate.mp4" type="video/mp4" />
+    </video>
+
+    {/* PRODUITS */}
+    <div className="grid grid-cols-2 gap-6">
+
+      <div className="text-center bg-gray-100 p-4 rounded-2xl">
+        <img
+          src="/berry.jpeg"
+          alt="Berry Nectar"
+          className="w-40 mx-auto rounded-xl"
+        />
+
+        <h3 className="text-xl font-bold mt-4">
+          Berry Nectar
+        </h3>
+
+        <p className="text-gray-600 text-sm mt-2">
+          Riche en antioxydants naturels.
+        </p>
+      </div>
+
+      <div className="text-center bg-gray-100 p-4 rounded-2xl">
+        <img
+          src="/vitolize.jpeg"
+          alt="Vitolize"
+          className="w-40 mx-auto rounded-xl"
+        />
+
+        <h3 className="text-xl font-bold mt-4">
+          Vitolize
+        </h3>
+
+        <p className="text-gray-600 text-sm mt-2">
+          Formule spécialement conçue pour les hommes.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+ 
       {/* Products */}
       <section id="products" className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-14">
@@ -177,4 +231,4 @@ export default function ForeverProductsSite() {
     </div>
   );
 }
-  
+  /////////////////////////////////////////////////////////////
