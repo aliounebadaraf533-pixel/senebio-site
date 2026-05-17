@@ -150,13 +150,13 @@ export default function ForeverProductsSite() {
 
       {/* BOUTON */}
       <div className="text-center mt-6">
-        <a
-          href="https://wa.me/221772294864"
+         <a
+          href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20Berry%20Nectar%20et%20Vitolize"
           target="_blank"
           className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
-        >
-          Acheter maintenant
-        </a>
+>
+       Acheter maintenant
+      </a>
       </div>
 
     </div>
