@@ -141,9 +141,17 @@ export default function ForeverProductsSite() {
             Vitolize
           </h3>
 
-          <p className="text-gray-600 text-sm mt-2">
-            Formule spécialement conçue pour les hommes.
-          </p>
+           <p className="text-gray-600 mt-3">
+  Berry Nectar : 19.500f
+</p>
+
+<p className="text-gray-600">
+  Vitolize : 23.500f
+</p>
+
+<p className="text-green-700 font-bold text-xl mt-4">
+  Total : 43.000f
+</p>
         </div>
 
       </div>
