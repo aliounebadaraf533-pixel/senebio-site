@@ -34,13 +34,17 @@ export default function ForeverProductsSite() {
       <header className="bg-green-700 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
        <div>
-  <h1 className="text-3xl font-bold">Forever Sénégal</h1>
-  <div className="overflow-hidden whitespace-nowrap">
-  <p className="inline-block animate-bounce text-sm mt-1">
-    📞 WhatsApp : +221 77 229 48 64
-  </p>
-</div>
-</div>
+          <h1 className="text-3xl font-bold">Forever Sénégal
+
+          </h1>
+          <div className="overflow-hidden whitespace-nowrap">
+            <p className="inline-block animate-bounce text-sm mt-1">
+              📞 WhatsApp : +221 77 229 48 64
+            </p>
+
+          </div>
+          </div>
+      
           <nav className="flex gap-6 text-sm md:text-base">
             <a href="#products" className="hover:underline">Produits</a>
             <a href="#about" className="hover:underline">À propos</a>
@@ -91,144 +95,74 @@ export default function ForeverProductsSite() {
       </section>
       
 
-{/* SECTION PROSTATE */}
+ {/* SECTION PROSTATE */}
 <section className="py-16 px-6 bg-white">
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-2 items-center">
 
     {/* VIDEO */}
     <video
-      className="w-72 h-96 rounded-2xl shadow-lg object-cover" 
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
       controls
     >
       <source src="/prostate.mp4" type="video/mp4" />
     </video>
 
-    {/* PRODUITS */}
-    <div className="grid grid-cols-2 gap-2">
+    {/* PRODUITS + BOUTON */}
+    <div>
 
-      <div className="text-center bg-gray-100 p-4 rounded-2xl">
-        <img
-          src="/berry.jpeg"
-          alt="Berry Nectar"
-          className="w-40 mx-auto rounded-xl"
-        />
+      <div className="grid grid-cols-2 gap-6">
 
-        <h3 className="text-xl font-bold mt-4">
-          Berry Nectar
-        </h3>
+        {/* PRODUIT 1 */}
+        <div className="text-center bg-gray-100 p-4 rounded-2xl">
+          <img
+            src="/berry.jpeg"
+            alt="Berry Nectar"
+            className="w-40 mx-auto rounded-xl"
+          />
 
-        <p className="text-gray-600 text-sm mt-2">
-          Riche en antioxydants naturels.
-        </p>
+          <h3 className="text-xl font-bold mt-4">
+            Berry Nectar
+          </h3>
+
+          <p className="text-gray-600 text-sm mt-2">
+            Riche en antioxydants naturels.
+          </p>
+        </div>
+
+        {/* PRODUIT 2 */}
+        <div className="text-center bg-gray-100 p-4 rounded-2xl">
+          <img
+            src="/vitolize.jpeg"
+            alt="Vitolize"
+            className="w-40 mx-auto rounded-xl"
+          />
+
+          <h3 className="text-xl font-bold mt-4">
+            Vitolize
+          </h3>
+
+          <p className="text-gray-600 text-sm mt-2">
+            Formule spécialement conçue pour les hommes.
+          </p>
+        </div>
+
       </div>
 
-      <div className="text-center bg-gray-100 p-4 rounded-2xl">
-        <img
-          src="/vitolize.jpeg"
-          alt="Vitolize"
-          className="w-40 mx-auto rounded-xl"
-        />
-
-        <h3 className="text-xl font-bold mt-4">
-          Vitolize
-        </h3>
-
-        <p className="text-gray-600 text-sm mt-2">
-          Formule spécialement conçue pour les hommes.
-        </p>
+      {/* BOUTON */}
+      <div className="text-center mt-6">
+        <a
+          href="https://wa.me/221772294864"
+          target="_blank"
+          className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
+        >
+          Acheter maintenant
+        </a>
       </div>
 
     </div>
 
   </div>
 </section>
-
- 
-      {/* Products */}
-      <section id="products" className="max-w-7xl mx-auto px-6 py-20">
-        <div className="text-center mb-14">
-          <h3 className="text-4xl font-bold mb-4">Nos Produits</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Produits Forever sélectionnés pour répondre aux besoins du quotidien.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {products.map((product, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition"
-            >
-              <img
-                src={product.image}
-                alt={product.name}
-                 className="w-30 h-40 object-cover"
-              />
-
-              <div className="p-6">
-                <h4 className="text-2xl font-bold mb-3">{product.name}</h4>
-                <p className="text-gray-600 mb-6">{product.description}</p>
-
-                <a
-                  href="https://wa.me/221772294864"
-                  target="_blank"
-                  className="inline-block bg-green-700 text-white px-5 py-3 rounded-xl font-semibold hover:bg-green-800 transition"
-                >
-                  Acheter maintenant
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* About */}
-      <section id="about" className="bg-white py-20">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h3 className="text-4xl font-bold mb-6">Pourquoi choisir Forever ?</h3>
-          <p className="text-lg text-gray-600 leading-relaxed">
-            Forever propose des produits de bien-être appréciés dans plusieurs pays.
-            Notre objectif est d’offrir un service simple, rapide et professionnel au Sénégal.
-          </p>
-        </div>
-      </section>
-
-      {/* Contact */}
-       {/* Contact */}
-<section id="contact" className="max-w-5xl mx-auto px-6 py-20">
-  <div className="bg-green-700 text-white rounded-3xl p-10 shadow-2xl text-center">
-    <h3 className="text-4xl font-bold mb-4">Contactez-nous</h3>
-
-    <p className="text-lg mb-4">
-      📞 Téléphone : +221 77 229 48 64
-    </p>
-
-    <p className="text-lg mb-4">
-      💬 WhatsApp : +221 77 229 48 64
-    </p>
-
-    <p className="text-lg mb-4">
-      📧 Email : aliounebadaraf533@gmail.com
-    </p>
-
-    <p className="text-lg mb-8">
-      📍 Dakar, Sénégal,parcelle assainie unite 5
-    </p>
-
-    <a
-      href="https://wa.me/221772294864"
-      target="_blank"
-      className="bg-white text-green-700 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition"
-    >
-      Commander sur WhatsApp
-    </a>
-  </div>
-</section>
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-8 text-center">
-        <p>© 2026 Forever Sénégal - Tous droits réservés.</p>
-      </footer>
-    </div>
-  );
+</div>
+);
 }
-  /////////////////////////////////////////////////////////////
