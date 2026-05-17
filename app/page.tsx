@@ -101,7 +101,7 @@ export default function ForeverProductsSite() {
 
     {/* VIDEO */}
     <video
-      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      className="w-80 h-96 rounded-2xl shadow-lg object-cover"
       controls
     >
       <source src="/prostate.mp4" type="video/mp4" />
