@@ -34,9 +34,17 @@ export default function ForeverProductsSite() {
       <header className="bg-green-700 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
        <div>
-          <h1 className="text-3xl font-bold">Forever Sénégal
+           <div className="flex items-center gap-3">
+  <img
+    src="/logo.png"
+    alt="Logo"
+    className="w-14 h-14 object-contain"
+  />
 
-          </h1>
+  <h1 className="text-3xl font-bold">
+    Forever Sénégal
+  </h1>
+</div>
           <div className="overflow-hidden whitespace-nowrap">
             <p className="inline-block animate-bounce text-sm mt-1">
               📞 WhatsApp : +221 77 229 48 64
