@@ -207,6 +207,76 @@ export default function ForeverProductsSite() {
   </div>
 
 </section>
+{/* SECTION VISION */}
+<section className="py-16 px-6 bg-white">
+
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/vision.mp4" type="video/mp4" />
+    </video>
+
+    {/* PRODUITS */}
+    <div className="bg-gray-100 p-6 rounded-3xl shadow-xl">
+
+      <img
+        src="/gamme-vision.jpeg"
+        alt="Gamme Vision"
+        className="w-full rounded-2xl"
+      />
+
+      <div className="mt-6 text-center">
+
+        <h3 className="text-3xl font-bold text-blue-700">
+          Gamme Vision
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Association de Forever Arctic Sea et Forever iVision
+          pour le bien-être des yeux et de la vision.
+        </p>
+
+        <div className="mt-6 space-y-2">
+
+          <p className="text-lg">
+            Forever Arctic Sea :
+            <span className="font-bold"> 23.500f</span>
+          </p>
+
+          <p className="text-lg">
+            Forever iVision :
+            <span className="font-bold"> 27.500f</span>
+          </p>
+
+          <p className="text-2xl font-bold text-blue-700 mt-4">
+            Total : 51.000f
+          </p>
+
+        </div>
+
+        <div className="mt-8">
+
+          <a
+            href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20vision"
+            target="_blank"
+            className="bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-800 transition"
+          >
+            Commander la gamme
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </div>
   );
 }
