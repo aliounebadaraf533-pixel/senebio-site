@@ -1,186 +1,135 @@
 
 export default function ForeverProductsSite() {
-   const products = [
-  {
-    name: "Forever Aloe Vera Gel",
-    description: "99,7% d’aloe vera pur.",
-    image: "/aloe.jpeg"
-  },
-  {
-    name: "Forever Bee Honey",
-    description: "Miel naturel Forever.",
-    image: "/honey.jpeg"
-  },
-  {
-    name: "Forever Arctic Sea",
-    description: "Complément riche en oméga-3.",
-    image: "/arctic.jpeg"
-  },
-  {
-  name: "Forever Aloe Berry Nectar",
-  description: "Bien-être digestif et vitalité.",
-  image: "/berry.jpeg"
-  },
-  {
-  name: "Forever Vitolize Men",
-  description: "Complément pour la vitalité masculine.",
-  image: "/vitolize.jpeg"
-  },
-];
-
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
-      {/* Header */}
+
+      {/* HEADER */}
       <header className="bg-green-700 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-       <div>
-           <div className="flex items-center gap-3">
-  <img
-    src="/logo.png"
-    alt="Logo"
-    className="w-14 h-14 object-contain"
-  />
 
-  <h1 className="text-3xl font-bold">
-    Forever Sénégal
-  </h1>
-</div>
-          <div className="overflow-hidden whitespace-nowrap">
-            <p className="inline-block animate-bounce text-sm mt-1">
+          <div>
+            <h1 className="text-3xl font-bold">
+              Forever Sénégal
+            </h1>
+
+            <p className="text-sm mt-1">
               📞 WhatsApp : +221 77 229 48 64
             </p>
+          </div>
 
-          </div>
-          </div>
-      
-          <nav className="flex gap-6 text-sm md:text-base">
-            <a href="#products" className="hover:underline">Produits</a>
-            <a href="#about" className="hover:underline">À propos</a>
-            <a href="#contact" className="hover:underline">Contact</a>
+          <nav className="flex gap-6">
+            <a href="#products">Produits</a>
+            <a href="#contact">Contact</a>
           </nav>
+
         </div>
       </header>
 
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
-          
+      {/* HERO */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
           <div>
-            <h2 className="text-5xl font-extrabold leading-tight mb-6">
+
+            <h2 className="text-5xl font-extrabold mb-6">
               Produits Forever au Sénégal
             </h2>
+
             <p className="text-lg text-gray-600 mb-8">
-              Découvrez une sélection de produits Forever adaptés à votre quotidien.
-              Commande rapide via WhatsApp avec livraison disponible.
+              Découvrez nos gammes naturelles pour le bien-être.
             </p>
 
-            <div className="flex gap-4 flex-wrap">
-              <a
-                href="https://wa.me/221772294864"
-                target="_blank"
-                className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-2xl font-semibold shadow-lg transition"
-              >
-                Commander sur WhatsApp
-              </a>
+            <a
+              href="https://wa.me/221772294864"
+              target="_blank"
+              className="bg-green-700 text-white px-6 py-3 rounded-2xl font-bold"
+            >
+              Commander sur WhatsApp
+            </a>
 
-              <a
-                href="#products"
-                className="border border-green-700 text-green-700 px-6 py-3 rounded-2xl font-semibold hover:bg-green-50 transition"
-              >
-                Voir les produits
-              </a>
-            </div>
           </div>
 
-          <div>
-            <img
-               src="/banner.jpeg"
-              alt="Produits bien-être"
-              className="rounded-3xl shadow-2xl object-cover h-[450px] w-full"
-            />
-          </div>
+          <img
+            src="/banner.jpeg"
+            alt="Forever"
+            className="rounded-3xl shadow-2xl"
+          />
+
         </div>
       </section>
-      
 
- {/* SECTION PROSTATE */}
-<section className="py-16 px-6 bg-white">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-2 items-center">
+      {/* SECTION PROSTATE */}
+      <section className="py-16 px-6 bg-white">
 
-    {/* VIDEO */}
-    <video
-      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
-      controls
-    >
-      <source src="/prostate.mp4" type="video/mp4" />
-    </video>
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
 
-    {/* PRODUITS + BOUTON */}
-    <div>
+          {/* VIDEO */}
+          <video
+            className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+            controls
+          >
+            <source src="/prostate.mp4" type="video/mp4" />
+          </video>
 
-      <div className="grid grid-cols-2 gap-6">
+          {/* PRODUITS */}
+          <div className="bg-gray-100 p-6 rounded-3xl shadow-xl">
 
-        {/* PRODUIT 1 */}
-        <div className="text-center bg-gray-100 p-4 rounded-2xl">
-          <img
-            src="/berry.jpeg"
-            alt="Berry Nectar"
-            className="w-40 mx-auto rounded-xl"
-          />
+            <img
+              src="/gamme-prostate.jpeg"
+              alt="Gamme Prostate"
+              className="w-full rounded-2xl"
+            />
 
-          <h3 className="text-xl font-bold mt-4">
-            Berry Nectar
-          </h3>
+            <div className="mt-6 text-center">
 
-          <p className="text-gray-600 text-sm mt-2">
-            Riche en antioxydants naturels.
-          </p>
+              <h3 className="text-3xl font-bold text-green-700">
+                Gamme Prostate
+              </h3>
+
+              <p className="text-gray-600 mt-3">
+                Association de Berry Nectar et Vitolize.
+              </p>
+
+              <div className="mt-6">
+
+                <p className="text-lg">
+                  Berry Nectar :
+                  <span className="font-bold"> 19.500f</span>
+                </p>
+
+                <p className="text-lg mt-2">
+                  Vitolize :
+                  <span className="font-bold"> 23.500f</span>
+                </p>
+
+                <p className="text-2xl font-bold text-green-700 mt-4">
+                  Total : 43.000f
+                </p>
+
+              </div>
+
+              <div className="mt-8">
+
+                <a
+                  href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20prostate%20https://senebio-site.vercel.app/?v=2"
+                  target="_blank"
+                  className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
+                >
+                  Commander la gamme
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
-        {/* PRODUIT 2 */}
-        <div className="text-center bg-gray-100 p-4 rounded-2xl">
-          <img
-            src="/vitolize.jpeg"
-            alt="Vitolize"
-            className="w-40 mx-auto rounded-xl"
-          />
-
-          <h3 className="text-xl font-bold mt-4">
-            Vitolize
-          </h3>
-
-           <p className="text-gray-600 mt-3">
-  Berry Nectar : 19.500f
-</p>
-
-<p className="text-gray-600">
-  Vitolize : 23.500f
-</p>
-
-<p className="text-green-700 font-bold text-xl mt-4">
-  Total : 43.000f
-</p>
-        </div>
-
-      </div>
-
-      {/* BOUTON */}
-      <div className="text-center mt-6">
-         <a
-           
-  href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20prostate%20:%20https://senebio-site.vercel.app"
-          className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
->
-       Acheter maintenant
-      </a>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+      </section>
 {/* SECTION INFECTION URINAIRE */}
-<section className="py-16 px-6 bg-white">
+<section className="py-16 px-6 bg-gray-50">
+
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
 
     {/* VIDEO */}
@@ -191,110 +140,73 @@ export default function ForeverProductsSite() {
       <source src="/infection.mp4" type="video/mp4" />
     </video>
 
-    {/* IMAGE GAMME + BOUTON */}
-    <div className="text-center">
+    {/* PRODUITS */}
+    <div className="bg-white p-6 rounded-3xl shadow-xl">
 
-      <div className="bg-gray-100 p-6 rounded-3xl shadow-lg">
-        <img
-          src="/gamme-urinaire.jpeg"
-          alt="Gamme Infection Urinaire"
-          className="w-full max-w-md mx-auto rounded-2xl"
-        />
+      <img
+        src="/gamme-urinaire.jpeg"
+        alt="Gamme Infection Urinaire"
+        className="w-full rounded-2xl"
+      />
 
-        <h3 className="text-2xl font-bold mt-6">
-          Gamme Bien-être Urinaire
+      <div className="mt-6 text-center">
+
+        <h3 className="text-3xl font-bold text-green-700">
+          Gamme Infection Urinaire
         </h3>
 
-         <p className="text-gray-600 mt-3">
-  Berry Nectar : 19.500f x2
-</p>
+        <p className="text-gray-600 mt-3">
+          Association de Berry Nectar, Bee Propolis,
+          Vitolize et Fields of Greens.
+        </p>
 
-<p className="text-gray-600">
-  Bee Propolis : 25.500f
-</p>
+        <div className="mt-6 space-y-2">
 
-<p className="text-gray-600">
-  Vitolize : 23.500f
-</p>
+          <p className="text-lg">
+            Berry Nectar :
+            <span className="font-bold"> 19.500f</span>
+          </p>
 
-<p className="text-gray-600">
-  Fields of Greens : 10.000f
-</p>
+          <p className="text-lg">
+            Bee Propolis :
+            <span className="font-bold"> 25.500f</span>
+          </p>
 
-<p className="text-green-700 font-bold text-xl mt-4">
-  Total : 98.000f
-</p>
-      </div>
+          <p className="text-lg">
+            Vitolize :
+            <span className="font-bold"> 23.500f</span>
+          </p>
 
-      {/* BOUTON */}
-      <div className="mt-6">
-        <a
-          href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20infection%20urinaire"
-          target="_blank"
-          className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
-        >
-          Commander la gamme
-        </a>
+          <p className="text-lg">
+            Fields of Greens :
+            <span className="font-bold"> 10.000f</span>
+          </p>
+
+          <p className="text-2xl font-bold text-green-700 mt-4">
+            Total : 78.500f
+          </p>
+
+        </div>
+
+        <div className="mt-8">
+
+          <a
+            href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20infection%20urinaire"
+            target="_blank"
+            className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
+          >
+            Commander la gamme
+          </a>
+
+        </div>
+
       </div>
 
     </div>
 
   </div>
+
 </section>
-{/* SECTION VISION */}
-<section className="py-16 px-6 bg-gray-50">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
-
-    {/* VIDEO */}
-    <video
-      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
-      controls
-    >
-      <source src="/vision.mp4" type="video/mp4" />
-    </video>
-
-    {/* IMAGE GAMME + BOUTON */}
-    <div className="text-center">
-
-      <div className="bg-white p-6 rounded-3xl shadow-lg">
-        <img
-          src="/gamme-vision.jpeg"
-          alt="Gamme Vision"
-          className="w-full max-w-md mx-auto rounded-2xl"
-        />
-
-        <h3 className="text-2xl font-bold mt-6">
-          Gamme Vision
-        </h3>
-
-          <p className="text-gray-600 mt-3">
-  Forever Arctic Sea : 23.500f
-</p>
-
-<p className="text-gray-600">
-  Forever iVision : 27.500f
-</p>
-
-<p className="text-green-700 font-bold text-xl mt-4">
-  Total : 51.000f
-</p>
-      </div>
-
-      {/* BOUTON */}
-      <div className="mt-6">
-        <a
-          href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20vision"
-          target="_blank"
-          className="bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-800 transition"
-        >
-          Commander la gamme
-        </a>
-      </div>
-
     </div>
-
-  </div>
-</section>
-</div>
-);
+  );
 }
