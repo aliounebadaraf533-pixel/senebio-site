@@ -58,75 +58,78 @@ export default function ForeverProductsSite() {
         </div>
       </section>
 
-      {/* SECTION PROSTATE */}
-      <section className="py-16 px-6 bg-white">
+       {/* SECTION PROSTATE */}
+<section className="py-16 px-6 bg-white">
 
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
 
-          {/* VIDEO */}
-          <video
-            className="w-72 h-96 rounded-2xl shadow-lg object-cover"
-            controls
-          >
-            <source src="/prostate.mp4" type="video/mp4" />
-          </video>
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/prostate.mp4" type="video/mp4" />
+    </video>
 
-          {/* PRODUITS */}
-          <div className="bg-gray-100 p-6 rounded-3xl shadow-xl">
+    {/* IMAGE GAMME */}
+    <div className="bg-gray-100 p-6 rounded-3xl shadow-xl">
 
-            <img
-              src="/gamme-prostate.jpeg"
-              alt="Gamme Prostate"
-              className="w-full rounded-2xl"
-            />
+      <img
+        src="/gamme-prostate.jpeg"
+        alt="Gamme Prostate"
+        className="w-full rounded-2xl shadow-lg"
+      />
 
-            <div className="mt-6 text-center">
+      <div className="mt-6 text-center">
 
-              <h3 className="text-3xl font-bold text-green-700">
-                Gamme Prostate
-              </h3>
+        <h3 className="text-3xl font-bold text-green-700">
+          Gamme Prostate
+        </h3>
 
-              <p className="text-gray-600 mt-3">
-                Association de Berry Nectar et Vitolize.
-              </p>
+        <p className="text-gray-600 mt-3">
+          Berry Nectar et Vitolize
+          pour le bien-être masculin.
+        </p>
 
-              <div className="mt-6">
+        {/* PRIX */}
+        <div className="mt-6 space-y-2">
 
-                <p className="text-lg">
-                  Berry Nectar :
-                  <span className="font-bold"> 19.500f</span>
-                </p>
+          <p className="text-lg text-gray-700">
+            Berry Nectar :
+            <span className="font-bold"> 19.500f</span>
+          </p>
 
-                <p className="text-lg mt-2">
-                  Vitolize :
-                  <span className="font-bold"> 23.500f</span>
-                </p>
+          <p className="text-lg text-gray-700">
+            Vitolize :
+            <span className="font-bold"> 23.500f</span>
+          </p>
 
-                <p className="text-2xl font-bold text-green-700 mt-4">
-                  Total : 43.000f
-                </p>
-
-              </div>
-
-              <div className="mt-8">
-
-                <a
-                  href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20prostate%20https://senebio-site.vercel.app/?v=2"
-                  target="_blank"
-                  className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
-                >
-                  Commander la gamme
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
+          <p className="text-2xl font-extrabold text-green-700 mt-4">
+            Total : 43.000f
+          </p>
 
         </div>
 
-      </section>
+        {/* BOUTON */}
+        <div className="mt-8">
+
+          <a
+            href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20prostate%20https://senebio-site.vercel.app/prostate"
+            target="_blank"
+            className="bg-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg hover:bg-green-800 transition shadow-lg"
+          >
+            Commander la gamme
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 {/* SECTION INFECTION URINAIRE */}
 <section className="py-16 px-6 bg-gray-50">
 
