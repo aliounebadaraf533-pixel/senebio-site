@@ -167,7 +167,7 @@ export default function ForeverProductsSite() {
 
           <p className="text-lg">
             Berry Nectar :
-            <span className="font-bold"> 19.500f</span>
+            <span className="font-bold"> 19.500fx2</span>
           </p>
 
           <p className="text-lg">
@@ -265,6 +265,76 @@ export default function ForeverProductsSite() {
 
           <a
             href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20vision"
+            target="_blank"
+            className="bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-800 transition"
+          >
+            Commander la gamme
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+{/* SECTION ARTICULATION */}
+<section className="py-16 px-6 bg-white">
+
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/articulation.mp4" type="video/mp4" />
+    </video>
+
+    {/* PRODUITS */}
+    <div className="bg-gray-100 p-6 rounded-3xl shadow-xl">
+
+      <img
+        src="/gamme-articulation.jpeg"
+        alt="Gamme Articulation"
+        className="w-full rounded-2xl"
+      />
+
+      <div className="mt-6 text-center">
+
+        <h3 className="text-3xl font-bold text-blue-700">
+          Gamme Articulation
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Association de Forever Freedom et Aloe Heat Lotion
+          pour le confort articulaire et musculaire.
+        </p>
+
+        <div className="mt-6">
+
+          <p className="text-lg">
+            Forever Freedom :
+            <span className="font-bold"> 28.500f</span>
+          </p>
+
+          <p className="text-lg mt-2">
+            Aloe Heat Lotion :
+            <span className="font-bold"> 11.500f</span>
+          </p>
+
+          <p className="text-2xl font-bold text-blue-700 mt-4">
+            Total : 40.000f
+          </p>
+
+        </div>
+
+        <div className="mt-8">
+
+          <a
+            href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20articulation%20https://senebio-site.vercel.app"
             target="_blank"
             className="bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-800 transition"
           >
