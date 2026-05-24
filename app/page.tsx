@@ -350,6 +350,81 @@ export default function ForeverProductsSite() {
   </div>
 
 </section>
+{/* SECTION DIGESTION */}
+<section className="py-16 px-6 bg-gray-100">
+
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
+
+    {/* VIDEO */}
+    <video
+      className="w-72 h-96 rounded-2xl shadow-lg object-cover"
+      controls
+    >
+      <source src="/digestion.mp4" type="video/mp4" />
+    </video>
+
+    {/* PRODUITS */}
+    <div className="bg-white p-6 rounded-3xl shadow-xl">
+
+      <img
+        src="/gamme-digestion.jpeg"
+        alt="Gamme Digestion"
+        className="w-full rounded-2xl"
+      />
+
+      <div className="mt-6 text-center">
+
+        <h3 className="text-3xl font-bold text-green-700">
+          Gamme Digestion
+        </h3>
+
+        <p className="text-gray-600 mt-3">
+          Association de Aloe Vera Gel, Active Pro-B
+          et Fields Of Greens pour une bonne digestion.
+        </p>
+
+        <div className="mt-6">
+
+          <p className="text-lg">
+            Aloe Vera Gel :
+            <span className="font-bold"> 19.500f</span>
+          </p>
+
+          <p className="text-lg mt-2">
+            Active Pro-B :
+            <span className="font-bold"> 28.500f</span>
+          </p>
+
+          <p className="text-lg mt-2">
+            Fields Of Greens :
+            <span className="font-bold"> 10.000f</span>
+          </p>
+
+          <p className="text-2xl font-bold text-green-700 mt-4">
+            Total : 58.000f
+          </p>
+
+        </div>
+
+        <div className="mt-8">
+
+          <a
+            href="https://wa.me/221772294864?text=Bonjour%20je%20veux%20commander%20la%20gamme%20digestion%20https://senebio-site.vercel.app/gamme-digestion.jpeg"
+            target="_blank"
+            className="bg-green-700 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-800 transition"
+          >
+            Commander la gamme
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </div>
   );
 }
