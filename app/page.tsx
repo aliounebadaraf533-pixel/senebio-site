@@ -326,7 +326,7 @@ export default function ForeverProductsSite() {
           </p>
 
           <p className="text-2xl font-bold text-blue-700 mt-4">
-            Total : 40.000f
+            Total : 39.500f
           </p>
 
         </div>
