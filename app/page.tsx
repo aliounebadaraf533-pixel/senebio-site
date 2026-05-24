@@ -317,7 +317,7 @@ export default function ForeverProductsSite() {
 
           <p className="text-lg">
             Forever Freedom :
-            <span className="font-bold"> 28.500f</span>
+            <span className="font-bold"> 28.000f</span>
           </p>
 
           <p className="text-lg mt-2">
