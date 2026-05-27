@@ -26,7 +26,7 @@ export default function ForeverProductsSite() {
       </header>
 
       {/* HERO */}
-      <section className="bg-white py-20">
+       <section className="relative overflow-hidden bg-gradient-to-b from-green-50 to-white py-24">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
           <div>
